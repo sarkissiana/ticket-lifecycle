@@ -28,7 +28,7 @@ This repository demonstrates the **lifecycle of a ticket in osTicket**, from cre
 2. **Ticket Assignment** (auto/manual assignment to department/team/agent).
 3. **Observe the ticket’s properties & SLA Monitoring** (ensures response/resolution meets service level).
 4. **Ticket Resolution** (agent closes the ticket).  
-5. **Post-Resolution Review** (user can review or re-open if needed).  
+ 
 
 ---
 
@@ -84,14 +84,4 @@ Agent resolves the issue and marks the ticket as **Resolved/Closed**.
 
 ---
 
-### 5. Post-Resolution Review  
-- User confirms the issue is resolved.  
-- Ticket can be **reopened** if the problem persists.  
-
-📸 **Screenshot:**  
-![Post-Resolution](images/step7_post_resolution.png)  
-
----
-
-## 📂 Repository Structure  
 
