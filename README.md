@@ -25,12 +25,10 @@ This repository demonstrates the **lifecycle of a ticket in osTicket**, from cre
 ## 📋 Ticket Lifecycle Stages  
 
 1. **Ticket Creation** (by a user or agent).  
-2. **Ticket Assignment** (auto/manual assignment to department/team/agent).  
-3. **Agent Response** (communication with the user begins).  
-4. **Ticket Status Updates** (open → in progress → resolved).  
-5. **SLA Monitoring** (ensures response/resolution meets service level).  
-6. **Ticket Resolution** (agent closes the ticket).  
-7. **Post-Resolution Review** (user can review or re-open if needed).  
+2. **Ticket Assignment** (auto/manual assignment to department/team/agent).
+3. **Observe the ticket’s properties & SLA Monitoring** (ensures response/resolution meets service level).
+4. **Ticket Resolution** (agent closes the ticket).  
+5. **Post-Resolution Review** (user can review or re-open if needed).  
 
 ---
 
@@ -58,42 +56,35 @@ The ticket is assigned to an **agent** (e.g., John Doe).
 
 ---
 
-### 3. Agent Response  
-The assigned agent replies to the ticket, asking for additional details.  
-The user receives an email notification.  
-
-📸 **Screenshot:**  
-![Agent Response](images/step3_agent_response.png)  
-
----
-
-### 4. Ticket Status Updates  
-- Ticket moves from **Open → In Progress**.  
-- Agent documents troubleshooting steps.  
-
-📸 **Screenshot:**  
-![Ticket Progress](images/step4_ticket_progress.png)  
-
----
-
-### 5. SLA Monitoring  
+### 3. Observe the ticket’s properties & SLA Monitoring
 The ticket is tracked under an SLA (e.g., must be resolved within 8 business hours).  
-SLA countdown is visible in the admin panel.  
+SLA countdown is visible in the admin panel. 
+- Observe the ticket’s properties:  
+  - Priority  
+  - Department  
+  - SLA  
+  - Assigned To  
 
-📸 **Screenshot:**  
-![SLA Monitoring](images/step5_sla.png)  
+- Set properties:  
+  - SLA: **Sev-A (1 hour, 24/7)**  
+  - Department: **Online Banking**  
+
+📸   
+<img width="1919" height="1040" alt="Screenshot 2025-09-15 185435" src="https://github.com/user-attachments/assets/46b957df-00cd-4f74-b46b-0cc19ea7960b" />
 
 ---
 
-### 6. Ticket Resolution  
-Agent resolves the issue, resets the user’s password, and marks the ticket as **Resolved/Closed**.  
+### 4. Ticket Resolution  
+Agent resolves the issue and marks the ticket as **Resolved/Closed**.  
 
-📸 **Screenshot:**  
-![Ticket Resolution](images/step6_ticket_resolution.png)  
+📸 
+<img width="959" height="192" alt="Screenshot 2025-09-15 190647" src="https://github.com/user-attachments/assets/49aefbee-6d2a-42aa-9958-f79d04a1cd15" />
+
+
 
 ---
 
-### 7. Post-Resolution Review  
+### 5. Post-Resolution Review  
 - User confirms the issue is resolved.  
 - Ticket can be **reopened** if the problem persists.  
 
