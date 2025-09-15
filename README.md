@@ -2,11 +2,6 @@
 
 This repository demonstrates the **lifecycle of a ticket in osTicket**, from creation to resolution, showcasing how help desk staff and users interact with the system.  
 
----
-
-## 🎥 Video Demonstration  
-📺 [osTicket Ticket Lifecycle Walkthrough](#)  
-*(Add your YouTube or video link here)*  
 
 ---
 
