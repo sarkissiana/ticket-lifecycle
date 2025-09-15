@@ -1,6 +1,8 @@
 # osTicket - Lifecycle Examples  
 
-This repository demonstrates the **lifecycle of a ticket in osTicket**, from creation to resolution, showcasing how help desk staff and users interact with the system.  
+This repository demonstrates the **lifecycle of a ticket in osTicket**, from creation to resolution, showcasing how help desk staff and users interact with the system! 
+
+
 
 
 ---
@@ -34,10 +36,14 @@ This repository demonstrates the **lifecycle of a ticket in osTicket**, from cre
 ## ⚙️ Lifecycle Example Walkthrough  
 
 ### 1. Ticket Creation  
-A user submits a **“Password Reset Request”** via the osTicket User Portal.  
+A user submits a **“Online Banking Outage”** via the osTicket User Portal.  
+- Create a new ticket:  
+  - *Issue:* “Entire mobile/online banking system is down.”  
 
-📸 **Screenshot:**  
-![Ticket Creation](images/step1_ticket_creation.png)  
+📸 
+<img width="1558" height="861" alt="Screenshot 2025-09-15 183815" src="https://github.com/user-attachments/assets/eb4206a7-1fc6-4e87-84d7-a295580a2ac9" />
+
+
 
 ---
 
@@ -45,8 +51,9 @@ A user submits a **“Password Reset Request”** via the osTicket User Portal.
 osTicket automatically routes the ticket to the **IT Support Department**.  
 The ticket is assigned to an **agent** (e.g., John Doe).  
 
-📸 **Screenshot:**  
-![Ticket Assignment](images/step2_ticket_assignment.png)  
+📸 
+<img width="1569" height="907" alt="Screenshot 2025-09-15 183920" src="https://github.com/user-attachments/assets/7f155d0e-9e70-41d2-952b-fdccd78b4261" />
+
 
 ---
 
